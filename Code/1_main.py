@@ -8,6 +8,6 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 
 
-data=pd.read_csv('data\data.csv')
+data=pd.read_csv('./dataset/data.csv')
 ozone_data = data['OZONE'].values.astype(float)
 print(ozone_data)
